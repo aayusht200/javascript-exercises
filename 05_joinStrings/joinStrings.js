@@ -8,11 +8,11 @@
 */
 
 // Add your code right below, good luck!
-
-
-
-
-
+firstName="Carlos"
+lastName="Stevenson"
+thisYear=1965
+birthYear=1947
+greeting="Hello! My name is "+this.firstName+" "+this.lastName+" and I am"+(this.thisYear-this.birthYear)+" years old."
 // Do not change this
 module.exports = {
   firstName: typeof firstName === 'undefined' ? undefined : firstName,
